@@ -1,6 +1,6 @@
 
 
-div, ul, li, dl, dt, dd, h1, h2, h3, h4, h5, p { padding: 0px; margin: 0px; }
+div, ul, li, dl, dt, dd, h1, h2, h3, h4, h5, p, a { padding: 0px; margin: 0px; }
 ul, li, dl, dd { list-style: none; }
 
 a { color:  #707070; font-size: 14px; }
@@ -61,7 +61,7 @@ a { color:  #707070; font-size: 14px; }
         
         > div { position: relative; }
         .plus { position: absolute; top:0; right:0px; }
-        .box_bottom { margin-top: 10px; font-size: 13px; line-height: 19px; color:#d9d9d9; }
+        .box_bottom { margin-top: 10px; font-size: 12px; line-height: 19px; color:#d9d9d9; }
 
         input[type="checkbox"]{ 
             
@@ -87,9 +87,8 @@ a { color:  #707070; font-size: 14px; }
         }
 
         input[type="checkbox"]:checked + label {  
-            background: {
-                color:#191919;
-            };
+            background:url(../image/checkbox.jpg) no-repeat 100% 100%;
+            background-size: 100%;
         }        
 
     }
@@ -107,11 +106,21 @@ a { color:  #707070; font-size: 14px; }
 
         dt, dd{
             line-height: 22px;
-        }
+        } 
+
+    }
+
+    .textbox::-webkit-scrollbar {
+        width: 4px; 
+    }
+    .textbox::-webkit-scrollbar-thumb {
+        height: 30%; /* 스크롤바의 길이 */
+        background: #b9b9b9; /* 스크롤바의 색상 */
+        border-radius: 4px;
     }
 
     .gray-btn{
-        margin-top: 20px;
+        margin:20px;
         a { display: inline-block; width: 100%; height: 100%; }
 
         img {

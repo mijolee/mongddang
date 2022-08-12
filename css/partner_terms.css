@@ -1,4 +1,5 @@
-div, ul, li, dl, dt, dd, h1, h2, h3, h4, h5, p {
+@charset "UTF-8";
+div, ul, li, dl, dt, dd, h1, h2, h3, h4, h5, p, a {
   padding: 0px;
   margin: 0px;
 }
@@ -65,7 +66,7 @@ a {
 }
 .wrap .box .box_bottom {
   margin-top: 10px;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 19px;
   color: #d9d9d9;
 }
@@ -88,7 +89,8 @@ a {
   font-size: 13px;
 }
 .wrap .box input[type=checkbox]:checked + label {
-  background-color: #191919;
+  background: url(../image/checkbox.jpg) no-repeat 100% 100%;
+  background-size: 100%;
 }
 .wrap .line {
   margin: 0 auto;
@@ -108,8 +110,16 @@ a {
 .wrap .textbox dt, .wrap .textbox dd {
   line-height: 22px;
 }
+.wrap .textbox::-webkit-scrollbar {
+  width: 4px;
+}
+.wrap .textbox::-webkit-scrollbar-thumb {
+  height: 30%; /* 스크롤바의 길이 */
+  background: #b9b9b9; /* 스크롤바의 색상 */
+  border-radius: 4px;
+}
 .wrap .gray-btn {
-  margin-top: 20px;
+  margin: 20px;
 }
 .wrap .gray-btn a {
   display: inline-block;
