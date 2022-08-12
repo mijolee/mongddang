@@ -64,6 +64,7 @@ a {
   right: 0px;
 }
 .wrap .box .box_bottom {
+  margin-top: 10px;
   font-size: 13px;
   line-height: 19px;
   color: #d9d9d9;
@@ -76,6 +77,7 @@ a {
   width: 20px;
   height: 20px;
   border: 1px solid #767676;
+  background-color: #fff;
   cursor: pointer;
 }
 .wrap .box input[type=checkbox] + label span {
@@ -84,6 +86,9 @@ a {
   left: 35px;
   display: block;
   font-size: 13px;
+}
+.wrap .box input[type=checkbox]:checked + label {
+  background-color: #191919;
 }
 .wrap .line {
   margin: 0 auto;
@@ -102,4 +107,15 @@ a {
 }
 .wrap .textbox dt, .wrap .textbox dd {
   line-height: 22px;
+}
+.wrap .gray-btn {
+  margin-top: 20px;
+}
+.wrap .gray-btn a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.wrap .gray-btn img {
+  width: 100%;
 }/*# sourceMappingURL=partner_terms.css.map */
