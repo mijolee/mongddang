@@ -1,0 +1,105 @@
+div, ul, li, dl, dt, dd, h1, h2, h3, h4, h5, p {
+  padding: 0px;
+  margin: 0px;
+}
+
+ul, li, dl, dd {
+  list-style: none;
+}
+
+a {
+  color: #707070;
+  font-size: 14px;
+}
+
+.wrap {
+  color: #767676;
+  width: 375px;
+  margin: 0 auto;
+  border: 1px solid rgb(184, 184, 184);
+}
+.wrap header {
+  padding: 10px 0px;
+}
+.wrap header h2 {
+  font-size: 18px;
+  color: #1f1f1f;
+  line-height: 1em;
+}
+.wrap header .inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.wrap header .inner div:nth-child(1) {
+  order: 3;
+}
+.wrap header .inner div:nth-child(2) {
+  order: 0;
+}
+.wrap header .inner div:nth-child(3) {
+  order: 2;
+  align-self: top;
+}
+.wrap .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  box-shadow: 0px 2px 5px rgba(51, 51, 51, 0.3);
+}
+.wrap .title h2 {
+  font-size: 16px;
+  color: #1f1f1f;
+}
+.wrap .box {
+  padding: 16px;
+}
+.wrap .box > div {
+  position: relative;
+}
+.wrap .box .plus {
+  position: absolute;
+  top: 0;
+  right: 0px;
+}
+.wrap .box .box_bottom {
+  font-size: 13px;
+  line-height: 19px;
+  color: #d9d9d9;
+}
+.wrap .box input[type=checkbox] {
+  display: none;
+}
+.wrap .box input[type=checkbox] + label {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #767676;
+  cursor: pointer;
+}
+.wrap .box input[type=checkbox] + label span {
+  position: absolute;
+  top: 5pz;
+  left: 35px;
+  display: block;
+  font-size: 13px;
+}
+.wrap .line {
+  margin: 0 auto;
+  border-bottom: 1px solid #d9d9d9;
+  width: 343px;
+  height: 1px;
+}
+.wrap .textbox {
+  margin-top: 11px;
+  padding: 10px 12px;
+  width: 323px;
+  height: 100px;
+  overflow: auto;
+  font-size: 14px;
+  background: #f8f8fa;
+}
+.wrap .textbox dt, .wrap .textbox dd {
+  line-height: 22px;
+}/*# sourceMappingURL=partner_terms.css.map */

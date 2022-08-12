@@ -1,0 +1,20 @@
+<svg id="구성_요소_358_5" data-name="구성 요소 358 – 5" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        stroke: #1f1f1f;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1.5px;
+      }
+    </style>
+  </defs>
+  <rect id="사각형_2951" data-name="사각형 2951" class="cls-1" width="36" height="36"/>
+  <g id="Back" transform="translate(15 12)">
+    <path id="Back-2" data-name="Back" class="cls-2" d="M0,0,6,5.854,0,12" transform="translate(6 12) rotate(180)"/>
+  </g>
+</svg>
