@@ -73,6 +73,70 @@ a {
   background: #ff4800;
 }
 
-header img {
-  width: 50%;
+header a {
+  display: inline-block;
+  width: 100%;
+}
+
+header h1 img {
+  padding: 10px;
+  width: 75px;
+  height: 29px;
+}
+
+header .top {
+  position: relative;
+}
+
+header .top .lnb {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+/*  header .top .lnb ul { border:1px solid red; } */
+/* header .top .lnb ul li { border:2px solid blue; } */
+header .top .lnb ul li {
+  padding: 5px;
+}
+
+header .top .lnb ul li img {
+  width: 28px;
+  height: 29px;
+}
+
+header .top .lnb ul li:last-child {
+  padding: 0px;
+}
+
+header .top .lnb ul li:last-child img {
+  width: 60px;
+  height: 50px;
+}
+
+header .gnb .flex li a {
+  padding: 5px;
+  display: inline-block;
+  width: 100%;
+  font-size: 14px;
+  font-weight: 600;
+  color: #191919;
+  text-align: center;
+  border-bottom: 2px solid #707070;
+}
+header .gnb .flex li a:hover {
+  color: #ff4800;
+  border-bottom: 2px solid #ff4800;
+}
+
+.contents {
+  padding: 16px;
+}
+.contents .flex {
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.contents .main_box {
+  border: 1px solid #333;
+  width: 48%;
 }/*# sourceMappingURL=index.css.map */

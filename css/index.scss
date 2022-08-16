@@ -2,4 +2,39 @@
 
 .phon { width: 100%; height: 30px; background:$point-color; }
 
- header img { width: 50%; }
+header a  { display: inline-block; width: 100%; } 
+header h1 img { padding: 10px; width: 75px; height: 29px; }
+
+header .top { position: relative; }
+header .top .lnb { 
+    position: absolute; right: 0px; top:0px; 
+ }
+
+/*  header .top .lnb ul { border:1px solid red; } */
+ /* header .top .lnb ul li { border:2px solid blue; } */
+ header .top .lnb ul li { padding: 5px; }
+ header .top .lnb ul li img { width: 28px; height: 29px; }
+ header .top .lnb ul li:last-child { padding: 0px; }
+ header .top .lnb ul li:last-child img { width: 60px; height: 50px; }
+
+ header .gnb .flex li a { 
+    padding: 5px; 
+    display: inline-block; 
+    width: 100%; 
+    font-size: 14px; font-weight: 600; color: $main-color; 
+    text-align: center; 
+    border-bottom: 2px solid $normal2-color; 
+
+    &:hover { color:$point-color; border-bottom: 2px solid $point-color;}
+
+ }
+
+ .contents {
+  
+    padding: 16px;
+
+    .flex { flex-wrap: wrap; justify-content: space-between; }
+
+    .main_box {  border:1px solid #333; width: 48%; }
+
+ }
