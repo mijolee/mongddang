@@ -1,0 +1,57 @@
+@import url(partner_terms.css);
+a {
+  text-decoration: none;
+}
+
+.bbox {
+  width: 343px;
+  margin: 0 auto;
+}
+.bbox h3 {
+  padding-bottom: 20px;
+  font-size: 20px;
+  color: #191919;
+}
+
+.textBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.textBox div {
+  padding: 10px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1em;
+}
+.textBox div .ti {
+  color: #191919;
+  font-size: 15px;
+}
+.textBox div img {
+  width: 56px;
+  height: 56px;
+}
+.textBox div .user {
+  color: #191919;
+}
+.textBox div .user span {
+  color: #ff4800;
+}
+.textBox div > p {
+  padding: 4px 0px;
+  color: #767676;
+}
+
+.list-box1 .img {
+  position: relative;
+}
+
+.list-box1 .img .keyword {
+  position: absolute;
+  left: 10px;
+  bottom: 15px;
+  color: #fff;
+  font-size: 13px;
+}/*# sourceMappingURL=list.css.map */

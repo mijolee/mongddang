@@ -1,23 +1,6 @@
 @charset "UTF-8";
-div, ul, li, dl, dt, dd, h1, h2, h3, h4, h5, p, a {
-  padding: 0px;
-  margin: 0px;
-}
-
-ul, li, dl, dd {
-  list-style: none;
-}
-
-a {
-  color: #707070;
-  font-size: 14px;
-}
-
 .wrap {
   color: #767676;
-  width: 375px;
-  margin: 0 auto;
-  border: 1px solid rgb(184, 184, 184);
 }
 .wrap header {
   padding: 10px 0px;
