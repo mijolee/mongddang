@@ -3,17 +3,16 @@
 div, ul, li, dl, dt, dd, h1, h2, h3, h4, h5, p, a { padding: 0px; margin: 0px; }
 ul, li, dl, dd { list-style: none; }
 
+.blt::after{ content: "ㆍ"; }
+.blt {  
+    margin-left: -17px;
+}
+
 .noti_box{
 
     ul {  
         padding-left: 20px;
     }
-
-    .blt::after{ content: "ㆍ";  }
-    .blt {  
-        margin-left: -17px;
-    }
- 
 
     .ch { font-size: 14px; }
     .ch .ico { 

@@ -8,14 +8,16 @@ ul, li, dl, dd {
   list-style: none;
 }
 
-.noti_box ul {
-  padding-left: 20px;
-}
-.noti_box .blt::after {
+.blt::after {
   content: "ㆍ";
 }
-.noti_box .blt {
+
+.blt {
   margin-left: -17px;
+}
+
+.noti_box ul {
+  padding-left: 20px;
 }
 .noti_box .ch {
   font-size: 14px;
