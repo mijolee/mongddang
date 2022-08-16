@@ -58,7 +58,11 @@ div > h3 { font-weight: 600; }
 
 }
 
+.nav-tabs .nav-link {
+    border:0px !important;
+ }
+
 .nav-tabs .nav-link.active {
     border:none !important;
+    border-bottom:2px solid #ff4800 !important;
 } 
-
