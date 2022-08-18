@@ -5,6 +5,7 @@ html, body {
   position: relative;
   height: 100%;
   font-family: "Noto Sans KR", sans-serif;
+  font-size: 16px;
 }
 
 div, ul, li, dl, dt, dd, h1, h2, h3, h4, h5, p, a {
@@ -29,7 +30,6 @@ img {
 a {
   text-decoration: none;
   color: #191919;
-  font-size: 14px;
 }
 
 .wrap {
@@ -40,6 +40,7 @@ a {
 
 .flex {
   display: flex;
+  justify-content: space-between;
 }
 
 .left {
@@ -52,13 +53,21 @@ a {
   clear: both;
 }
 
-/* 블릿 */
-.blt::after {
-  content: "ㆍ";
+.relative {
+  position: relative;
 }
 
-.blt {
-  margin-left: -17px;
+/* 블릿 */
+.blt_ul li {
+  position: relative;
+  padding-left: 10px;
+}
+
+.blt-a::after {
+  position: absolute;
+  left: -5px;
+  top: 0px;
+  content: "ㆍ";
 }
 
 /* 블릿 - 숫자 */
