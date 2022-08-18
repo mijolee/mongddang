@@ -1,8 +1,10 @@
 @charset "UTF-8";
+@import "https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap";
 /* color */
 html, body {
   position: relative;
   height: 100%;
+  font-family: "Noto Sans KR", sans-serif;
 }
 
 div, ul, li, dl, dt, dd, h1, h2, h3, h4, h5, p, a {
@@ -40,6 +42,16 @@ a {
   display: flex;
 }
 
+.left {
+  float: left;
+}
+
+.clear::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
 /* 블릿 */
 .blt::after {
   content: "ㆍ";
@@ -65,6 +77,43 @@ a {
   position: relative;
   padding-left: 10px;
   counter-increment: number;
+}
+
+/* 취소선 */
+.through {
+  text-decoration: line-through;
+}
+
+/* 할인율 */
+.discount {
+  color: #ff4800;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* 가격 */
+.pice {
+  padding-left: 10px;
+  font-weight: 600;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* 무료배송 및 마일리지 */
+.mem_gray {
+  color: #767676;
+  font-size: 12px;
+  line-height: 17px;
+}
+
+/*  */
+.txt {
+  font-size: 15px;
+  line-height: 22px;
+}
+.txt .brand {
+  color: #707070;
+  font-size: 12px;
 }
 
 .phon {
@@ -136,7 +185,19 @@ header .gnb .flex li a:hover {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.contents .main_box {
-  border: 1px solid #333;
+
+.main_box {
   width: 48%;
+  padding-bottom: 20px;
+}
+.main_box .through {
+  color: #d9d9d9;
+}
+.main_box .star .flex {
+  justify-content: flex-start;
+}
+.main_box .star .flex .num {
+  position: relative;
+  top: 2px;
+  left: 0;
 }/*# sourceMappingURL=index.css.map */
